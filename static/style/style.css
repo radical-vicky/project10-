@@ -1,0 +1,21 @@
+h2 {
+    color: deepskyblue;
+    font-family: fantasy;
+    font-size: 30px;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 40px;
+}
+header {
+    color: #6610f2;
+}
+footer{
+    color:#bacbe6;
+    padding: 18px;
+}
+h5{
+    color: fuchsia;
+}
+h3{
+    color: #d1d2d4;
+}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<form action="" method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="button" class="btn btn-success">DELETE</button>
+  <a href="customers/ index/ [name='index']" class="btn btn-secondary" type="button" onclick="return confirm('Cancel')">Cancel</a>
+</form>
+{% endblock %}
